@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/mountains.jpg");
+  background-size: 1800px 1500px;
+  background-repeat: no-repeat;
+}
+
+div.header {
+  height: 100em;
+  position: relative;
+}
+div.header h1 {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 170px;
+  color: white;
+}
+div.footer h2 {
+  margin: 0;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+#yellow {
+  position: relative;
+  height: 170px;
+  width: 190px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#yellow-logo{
+  position: relative;
+  top: 340px;
+  left: 120px;
+}
+#plain {
+  height: 100px;
+  width: 100px;
+  top:10px;
+}
+#plain-logo {
+  position: relative;
+  top: -200px;
+}
+li {
+  display: inline;
+  list-style-type: none;
+  text-align: right;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.buttons {
+  position: relative;
+  float: right;
+  top: -40px;
+}
+#signup {
+  background-color: #efc026;
+  height: 30px;
+  width: 140px;
+  font-weight: bold;
+  margin-left: 10px;
+  border: #efc026; solid 1px;
+}
+#signin {
+  background-color: transparent;
+  border: solid white 1px;
+  color: white;
+  height: 30px;
+  width: 80px;
+}
+
+#list{
+  margin-left: 925px;
+}
+
+#stories{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 50px;
+  width: 220px;
+  font-weight: bold;
+  margin-left: 10px;
+  border: white; solid 1px;
+  color: white;
+}
+#facebook{
+  background-color: #3564b6;
+  height: 50px;
+  width: 220px;
+  font-weight: bold;
+  margin-left: 10px;
+  border: #3564b6; solid 1px;
+  color: white;
+}
+#buttons2{
+  position: relative;
+  margin-left: 35%;
+  bottom: 900px;
+  font-weight: bold;
+
+}
